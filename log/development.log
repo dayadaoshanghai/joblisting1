@@ -13912,3 +13912,1768 @@ Processing by JobsController#show as HTML
 Completed 200 OK in 59ms (Views: 57.6ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/jobs/5" for ::1 at 2019-05-12 16:57:19 +0800
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  Rendered jobs/show.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.4ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 41ms (Views: 36.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/jobs/5" for ::1 at 2019-05-12 16:57:20 +0800
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  Rendered jobs/show.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (2.0ms)
+  Rendered common/_flashes.html.erb (0.5ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 35.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/jobs/5" for ::1 at 2019-05-12 16:57:20 +0800
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  Rendered jobs/show.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.7ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 36ms (Views: 34.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/jobs/5" for ::1 at 2019-05-12 16:57:21 +0800
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  Rendered jobs/show.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 52ms (Views: 50.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/jobs/5" for ::1 at 2019-05-12 16:57:21 +0800
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  Rendered jobs/show.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.7ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/jobs/5" for ::1 at 2019-05-12 16:57:22 +0800
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  Rendered jobs/show.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.5ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/jobs/5" for ::1 at 2019-05-12 17:07:46 +0800
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  Rendered jobs/show.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.5ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/jobs/5/resumes/new" for ::1 at 2019-05-12 17:07:47 +0800
+Processing by ResumesController#new as HTML
+  Parameters: {"job_id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered resumes/new.html.erb within layouts/application (4.0ms)
+  Rendered common/_navbar.html.erb (1.1ms)
+  Rendered common/_flashes.html.erb (0.5ms)
+  Rendered common/_footer.html.erb (0.3ms)
+Completed 200 OK in 65ms (Views: 62.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 17:07:50 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (2.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.8ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 20:16:29 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (2.6ms)
+  Rendered common/_flashes.html.erb (0.6ms)
+  Rendered common/_footer.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 50.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 20:16:32 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.7ms)
+  Rendered common/_flashes.html.erb (0.6ms)
+  Rendered common/_footer.html.erb (0.5ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 20:16:33 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.5ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 20:28:18 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 20:28:19 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (2.0ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2019-05-12 20:28:21 +0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5UBF9z2Q0pFevHzWseYtJOySZvjJ5QPAjqDbL0IBgDd0iiFRLH4MVJDFaw4HvtlvP00eSFldvJhpm4MSrlBjSg=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 20:28:21 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (1.7ms)
+  Rendered common/_navbar.html.erb (3.6ms)
+  Rendered common/_flashes.html.erb (0.7ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-05-12 20:28:22 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/johnson/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/johnson/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/app/views/devise/shared/_links.html.erb (0.8ms)
+  Rendered /Users/johnson/.rvm/gems/ruby-2.6.0/gems/devise-4.6.2/app/views/devise/sessions/new.html.erb within layouts/application (8.5ms)
+  Rendered common/_navbar.html.erb (1.0ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 47ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-05-12 20:28:29 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H0GvA1WFCn6Zl2x2rGdHlBcACFubDDn+QtACCB5H8v1ez9ALKPdJMna8zNHs63ZwDQP9n/y2WjD+85xYUn53Ug==", "user"=>{"email"=>"xdite@qq.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "xdite@qq.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 146ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 20:28:29 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (3.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 20:28:32 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (11.1ms)
+  Rendered common/_flashes.html.erb (0.7ms)
+  Rendered common/_footer.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 66.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 20:28:33 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 39ms (Views: 36.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:28:35 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (15.9ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 51.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:28:37 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.0ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 39ms (Views: 35.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:28:37 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.1ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 57ms (Views: 37.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:28:38 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (5.7ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 39ms (Views: 36.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:28:38 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (7.5ms)
+  Rendered common/_navbar.html.erb (0.9ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 38.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:28:39 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.0ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.3ms)
+Completed 200 OK in 56ms (Views: 53.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:28:39 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (5.7ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 39.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:33:42 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (17.3ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.5ms)
+Completed 200 OK in 1907ms (Views: 1895.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:33:45 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (5.9ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 43ms (Views: 40.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:33:46 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (5.8ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 42.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:33:47 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (5.6ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 67ms (Views: 65.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:33:47 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.0ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 41ms (Views: 38.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:33:48 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.1ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:33:53 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.8ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 42.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:33:56 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (8.0ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 46ms (Views: 43.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:34:03 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (7.8ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 67ms (Views: 63.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:34:04 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (8.2ms)
+  Rendered common/_navbar.html.erb (0.5ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 43ms (Views: 39.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:34:04 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (8.4ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 46ms (Views: 43.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:34:05 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (8.0ms)
+  Rendered common/_navbar.html.erb (0.5ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 43ms (Views: 39.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/jobs/1" for ::1 at 2019-05-12 20:34:06 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.7ms)
+  Rendered common/_navbar.html.erb (0.8ms)
+  Rendered common/_flashes.html.erb (0.5ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 37.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:34:08 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (30.3ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 67ms (Views: 62.8ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/admin/jobs/2/publish" for ::1 at 2019-05-12 20:34:12 +0800
+Processing by Admin::JobsController#publish as HTML
+  Parameters: {"authenticity_token"=>"Qg0mV7KMqbTcLP+oJn4pLh3Xx/lyXbbYOwFN40/uBY5SmtxRIAVa/nzW9KGebmeAxVsnAJPGoVEmUbyeqIiFPA==", "id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "jobs" SET "is_hidden" = ?, "updated_at" = ? WHERE "jobs"."id" = ?[0m  [["is_hidden", "f"], ["updated_at", "2019-05-12 12:34:12.299481"], ["id", 2]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+DEPRECATION WARNING: `redirect_to :back` is deprecated and will be removed from Rails 5.1. Please use `redirect_back(fallback_location: fallback_location)` where `fallback_location` represents the location to use if the request has no HTTP referer information. (called from publish at /Users/johnson/Documents/GitHub/joblisting1/app/controllers/admin/jobs_controller.rb:53)
+Redirected to http://localhost:3000/admin/jobs
+Completed 302 Found in 6ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:34:12 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.3ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.7ms)
+  Rendered common/_footer.html.erb (0.4ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/admin/jobs/2/hide" for ::1 at 2019-05-12 20:34:13 +0800
+Processing by Admin::JobsController#hide as HTML
+  Parameters: {"authenticity_token"=>"7+lcdYr+bGZZd9ixyfyBdtM7ueh5ZuqGBbGnncAEnKb/fqZzGHefLPmN07hx7M/YC7dZEZj9/Q8Y4VbgJ2IcFA==", "id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jobs" SET "is_hidden" = ?, "updated_at" = ? WHERE "jobs"."id" = ?[0m  [["is_hidden", "t"], ["updated_at", "2019-05-12 12:34:13.177372"], ["id", 2]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+DEPRECATION WARNING: `redirect_to :back` is deprecated and will be removed from Rails 5.1. Please use `redirect_back(fallback_location: fallback_location)` where `fallback_location` represents the location to use if the request has no HTTP referer information. (called from hide at /Users/johnson/Documents/GitHub/joblisting1/app/controllers/admin/jobs_controller.rb:60)
+Redirected to http://localhost:3000/admin/jobs
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:34:13 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.0ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 44ms (Views: 41.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/jobs/2" for ::1 at 2019-05-12 20:34:14 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.7ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.5ms)
+  Rendered common/_footer.html.erb (0.4ms)
+Completed 200 OK in 40ms (Views: 37.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:34:16 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (8.7ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 66ms (Views: 62.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:51:17 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (5.8ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:51:27 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (1.0ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 36.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:51:28 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (10.8ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 54ms (Views: 49.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:51:33 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.8ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 70ms (Views: 66.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:51:33 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (5.9ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 43ms (Views: 40.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:51:40 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (7.3ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 44ms (Views: 41.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:51:40 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (7.5ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 39.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:51:41 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.7ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 41ms (Views: 38.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:51:42 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (7.3ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 65ms (Views: 62.1ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/admin/jobs/5/hide" for ::1 at 2019-05-12 20:51:48 +0800
+Processing by Admin::JobsController#hide as HTML
+  Parameters: {"authenticity_token"=>"GfBUpdv4IGhYvU1zGPU5wC0Q4Wi4Aljx+q6VynTNanQJZ66jSXHTIvhHRnqg5Xdu9ZwBkVmZT3jn/mS3k6vqxg==", "id"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jobs" SET "is_hidden" = ?, "updated_at" = ? WHERE "jobs"."id" = ?[0m  [["is_hidden", "t"], ["updated_at", "2019-05-12 12:51:48.338851"], ["id", 5]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+DEPRECATION WARNING: `redirect_to :back` is deprecated and will be removed from Rails 5.1. Please use `redirect_back(fallback_location: fallback_location)` where `fallback_location` represents the location to use if the request has no HTTP referer information. (called from hide at /Users/johnson/Documents/GitHub/joblisting1/app/controllers/admin/jobs_controller.rb:60)
+Redirected to http://localhost:3000/admin/jobs
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:51:48 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.5ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/admin/jobs/5/publish" for ::1 at 2019-05-12 20:51:49 +0800
+Processing by Admin::JobsController#publish as HTML
+  Parameters: {"authenticity_token"=>"bnqlpQBjmWOlt1uSdiz42YO0sUqxCbqYjaaNaby9Rxd+7V+jkupqKQVNUJvOPLZ3WzhRs1CSrRGQ9nwUW9vHpQ==", "id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jobs" SET "is_hidden" = ?, "updated_at" = ? WHERE "jobs"."id" = ?[0m  [["is_hidden", "f"], ["updated_at", "2019-05-12 12:51:49.641689"], ["id", 5]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+DEPRECATION WARNING: `redirect_to :back` is deprecated and will be removed from Rails 5.1. Please use `redirect_back(fallback_location: fallback_location)` where `fallback_location` represents the location to use if the request has no HTTP referer information. (called from publish at /Users/johnson/Documents/GitHub/joblisting1/app/controllers/admin/jobs_controller.rb:53)
+Redirected to http://localhost:3000/admin/jobs
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:51:49 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (7.3ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 47ms (Views: 44.6ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/admin/jobs/5/hide" for ::1 at 2019-05-12 20:51:50 +0800
+Processing by Admin::JobsController#hide as HTML
+  Parameters: {"authenticity_token"=>"Yd228VA5Gk7zmJDQIhKkrT+BjZMJn+t4nHHo61jcG7RxSkz3wrDpBFNim9maAuoD5w1taugE/PGBIRmWv7qbBg==", "id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jobs" SET "is_hidden" = ?, "updated_at" = ? WHERE "jobs"."id" = ?[0m  [["is_hidden", "t"], ["updated_at", "2019-05-12 12:51:50.526779"], ["id", 5]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+DEPRECATION WARNING: `redirect_to :back` is deprecated and will be removed from Rails 5.1. Please use `redirect_back(fallback_location: fallback_location)` where `fallback_location` represents the location to use if the request has no HTTP referer information. (called from hide at /Users/johnson/Documents/GitHub/joblisting1/app/controllers/admin/jobs_controller.rb:60)
+Redirected to http://localhost:3000/admin/jobs
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:51:50 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (7.8ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/admin/jobs/5/publish" for ::1 at 2019-05-12 20:51:51 +0800
+Processing by Admin::JobsController#publish as HTML
+  Parameters: {"authenticity_token"=>"5kUy3Dxntb5BsFnw4ywTs1aC0jvx8TypOkiLOKeuD+z20sjaru5G9OFKUvlbPF0djg4ywhBqKyAnGHpFQMiPXg==", "id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jobs" SET "is_hidden" = ?, "updated_at" = ? WHERE "jobs"."id" = ?[0m  [["is_hidden", "f"], ["updated_at", "2019-05-12 12:51:51.296947"], ["id", 5]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+DEPRECATION WARNING: `redirect_to :back` is deprecated and will be removed from Rails 5.1. Please use `redirect_back(fallback_location: fallback_location)` where `fallback_location` represents the location to use if the request has no HTTP referer information. (called from publish at /Users/johnson/Documents/GitHub/joblisting1/app/controllers/admin/jobs_controller.rb:53)
+Redirected to http://localhost:3000/admin/jobs
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:51:51 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (7.5ms)
+  Rendered common/_navbar.html.erb (0.8ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 67ms (Views: 64.1ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/admin/jobs/5/hide" for ::1 at 2019-05-12 20:51:51 +0800
+Processing by Admin::JobsController#hide as HTML
+  Parameters: {"authenticity_token"=>"FBGcEVkxu4Q7X04qOli4TwOD1C2462L3Iumc8uqtvYoEhmYXy7hIzpulRSOCSPbh2w801FlwdX4/uW2PDcs9OA==", "id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jobs" SET "is_hidden" = ?, "updated_at" = ? WHERE "jobs"."id" = ?[0m  [["is_hidden", "t"], ["updated_at", "2019-05-12 12:51:51.922667"], ["id", 5]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+DEPRECATION WARNING: `redirect_to :back` is deprecated and will be removed from Rails 5.1. Please use `redirect_back(fallback_location: fallback_location)` where `fallback_location` represents the location to use if the request has no HTTP referer information. (called from hide at /Users/johnson/Documents/GitHub/joblisting1/app/controllers/admin/jobs_controller.rb:60)
+Redirected to http://localhost:3000/admin/jobs
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:51:51 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (10.3ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.4ms)
+Completed 200 OK in 50ms (Views: 47.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/admin/jobs/5/publish" for ::1 at 2019-05-12 20:51:53 +0800
+Processing by Admin::JobsController#publish as HTML
+  Parameters: {"authenticity_token"=>"ohynHUz91vIMKJRBHldDD7/lEkK0fAcTroFoTm90ZK6yi10b3nQluKzSn0imRw2hZ2nyu1XnEJqz0ZkziBLkHA==", "id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "jobs" SET "is_hidden" = ?, "updated_at" = ? WHERE "jobs"."id" = ?[0m  [["is_hidden", "f"], ["updated_at", "2019-05-12 12:51:53.285040"], ["id", 5]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+DEPRECATION WARNING: `redirect_to :back` is deprecated and will be removed from Rails 5.1. Please use `redirect_back(fallback_location: fallback_location)` where `fallback_location` represents the location to use if the request has no HTTP referer information. (called from publish at /Users/johnson/Documents/GitHub/joblisting1/app/controllers/admin/jobs_controller.rb:53)
+Redirected to http://localhost:3000/admin/jobs
+Completed 302 Found in 5ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:51:53 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (10.7ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 50ms (Views: 46.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:51:54 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.7ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 34.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:51:56 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.6ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 52.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:51:57 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.6ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 38ms (Views: 35.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:52:18 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.5ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 43ms (Views: 40.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 20:52:19 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 20:52:20 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 58ms (Views: 55.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 20:52:20 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (2.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.4ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 41ms (Views: 38.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 20:52:22 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (2.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.6ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/jobs/4" for ::1 at 2019-05-12 20:52:26 +0800
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  Rendered jobs/show.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/jobs/4/resumes/new" for ::1 at 2019-05-12 20:52:28 +0800
+Processing by ResumesController#new as HTML
+  Parameters: {"job_id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered resumes/new.html.erb within layouts/application (4.3ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 50ms (Views: 40.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/jobs/4/resumes" for ::1 at 2019-05-12 20:52:31 +0800
+Processing by ResumesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iYc0TakVR8kRi+xXGO3NrFNAxk4X1Z8YgQ71B+JzXgFFDMwWIycUaXD0VkM393yHuabbmzI6RaKaoLz14i2Z+w==", "resume"=>{"content"=>"asdf"}, "commit"=>"送出", "job_id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "resumes" ("job_id", "user_id", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["job_id", 4], ["user_id", 1], ["content", "asdf"], ["created_at", "2019-05-12 12:52:31.325897"], ["updated_at", "2019-05-12 12:52:31.325897"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/jobs/4
+Completed 302 Found in 11ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/jobs/4" for ::1 at 2019-05-12 20:52:31 +0800
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  Rendered jobs/show.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (2.1ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 61ms (Views: 59.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-05-12 20:52:33 +0800
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.erb within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" WHERE "jobs"."is_hidden" = ? ORDER BY created_at DESC[0m  [["is_hidden", "f"]]
+  Rendered jobs/index.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.8ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:52:36 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (7.6ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 41.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:52:38 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.1ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:52:39 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (5.8ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 59.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:52:40 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.4ms)
+  Rendered common/_navbar.html.erb (1.0ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 41.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:52:58 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (54.3ms)
+  Rendered common/_navbar.html.erb (1.1ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 506ms (Views: 472.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:53:00 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.5ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 65ms (Views: 40.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:53:00 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.1ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 46ms (Views: 43.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/jobs/1" for ::1 at 2019-05-12 20:53:02 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (1.2ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 54ms (Views: 36.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/jobs/1" for ::1 at 2019-05-12 20:53:03 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.8ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 52.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs/1" for ::1 at 2019-05-12 20:53:04 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.7ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 40ms (Views: 37.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:53:05 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (9.6ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 47.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:53:06 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.8ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 38ms (Views: 35.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:53:07 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.6ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 54ms (Views: 51.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:53:07 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.7ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 36ms (Views: 33.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:53:08 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.6ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 36ms (Views: 33.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:53:08 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.6ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:54:32 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.8ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 54ms (Views: 36.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:54:32 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.7ms)
+  Rendered common/_navbar.html.erb (1.3ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:54:33 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.6ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:54:34 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.6ms)
+  Rendered common/_navbar.html.erb (1.1ms)
+  Rendered common/_flashes.html.erb (0.5ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 136ms (Views: 133.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:54:59 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.8ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 34.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:54:59 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.6ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 35ms (Views: 32.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:55:00 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.6ms)
+  Rendered common/_navbar.html.erb (1.0ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 34.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:55:02 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.7ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 59ms (Views: 56.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:55:04 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.8ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 41ms (Views: 37.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:55:05 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.6ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 34ms (Views: 31.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:55:06 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.7ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 53ms (Views: 51.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:55:06 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.6ms)
+  Rendered common/_navbar.html.erb (0.8ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:55:07 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.7ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/jobs/5" for ::1 at 2019-05-12 20:55:07 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.6ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 34.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:55:08 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (7.0ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 60ms (Views: 56.9ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/admin/jobs/2" for ::1 at 2019-05-12 20:55:15 +0800
+Processing by Admin::JobsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"aCmq/3R7K4tA5yozV7YEqpQ0R00fA6M57B6cddrx6Sp4vlD55vLYweAdITrvpkoETLintP6YtLDxTm0IPZdpmA==", "id"=>"2"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "jobs" WHERE "jobs"."id" = ?[0m  [["id", 2]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/jobs
+Completed 302 Found in 12ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:55:15 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.4ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/jobs/1" for ::1 at 2019-05-12 20:55:19 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.7ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 39ms (Views: 35.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/jobs/1" for ::1 at 2019-05-12 20:55:20 +0800
+Processing by Admin::JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/show.html.erb within layouts/admin
+  Rendered admin/jobs/show.html.erb within layouts/admin (0.7ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 49ms (Views: 46.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:55:22 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.1ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 41.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:55:23 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (5.1ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:55:34 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (5.1ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.3ms)
+Completed 200 OK in 56ms (Views: 53.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:55:37 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.7ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 43ms (Views: 40.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/jobs" for ::1 at 2019-05-12 20:55:37 +0800
+Processing by Admin::JobsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/jobs/index.html.erb within layouts/admin
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 4]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "resumes" WHERE "resumes"."job_id" = ?[0m  [["job_id", 5]]
+  Rendered admin/jobs/index.html.erb within layouts/admin (6.8ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 42.1ms | ActiveRecord: 1.0ms)
+
+
