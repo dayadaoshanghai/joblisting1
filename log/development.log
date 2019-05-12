@@ -13874,3 +13874,41 @@ Processing by JobsController#show as HTML
 Completed 200 OK in 51ms (Views: 48.3ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/jobs/5/resumes/new" for ::1 at 2019-05-12 16:48:48 +0800
+Processing by ResumesController#new as HTML
+  Parameters: {"job_id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering resumes/new.html.erb within layouts/application
+  Rendered resumes/new.html.erb within layouts/application (4.3ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+  Rendered common/_flashes.html.erb (0.3ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 39.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/jobs/5/resumes" for ::1 at 2019-05-12 16:48:55 +0800
+Processing by ResumesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"51N5/Zl3ztqzGeBmjLOXQfYj4MbRH9rt5haOAMki34IRurGZ4IAnog1sqokEIqBwMcaJAhh94y9lc0zImZBG3g==", "resume"=>{"content"=>"sadf", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x00007f8b7e93b280 @tempfile=#<Tempfile:/var/folders/cl/_pkcsb9j5bj1j7k3b52fb__r0000gn/T/RackMultipart20190512-65486-mm08fl.pdf>, @original_filename="ScalersTalk第四轮《新概念》朗读持续力训练材料(2018.10-2019.10).pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"resume[attachment]\"; filename=\"ScalersTalk\xE7\xAC\xAC\xE5\x9B\x9B\xE8\xBD\xAE\xE3\x80\x8A\xE6\x96\xB0\xE6\xA6\x82\xE5\xBF\xB5\xE3\x80\x8B\xE6\x9C\x97\xE8\xAF\xBB\xE6\x8C\x81\xE7\xBB\xAD\xE5\x8A\x9B\xE8\xAE\xAD\xE7\xBB\x83\xE6\x9D\x90\xE6\x96\x99(2018.10-2019.10).pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"送出", "job_id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "resumes" ("job_id", "user_id", "content", "created_at", "updated_at", "attachment") VALUES (?, ?, ?, ?, ?, ?)[0m  [["job_id", 5], ["user_id", 2], ["content", "sadf"], ["created_at", "2019-05-12 08:48:55.845265"], ["updated_at", "2019-05-12 08:48:55.845265"], ["attachment", "ScalersTalk第四轮_新概念_朗读持续力训练材料_2018.10-2019.10_.pdf"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/jobs/5
+Completed 302 Found in 14ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/jobs/5" for ::1 at 2019-05-12 16:48:55 +0800
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mJob Load (0.1ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering jobs/show.html.erb within layouts/application
+  Rendered jobs/show.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered common/_navbar.html.erb (1.6ms)
+  Rendered common/_flashes.html.erb (0.4ms)
+  Rendered common/_footer.html.erb (0.2ms)
+Completed 200 OK in 59ms (Views: 57.6ms | ActiveRecord: 0.3ms)
+
+
