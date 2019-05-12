@@ -29,7 +29,7 @@ class Admin::JobsController < ApplicationController
   end
 
   def create
-    @job = Job.(job_params)
+    @job = Job.new(job_params)
 
     if @job.save
       redirect_to admin_jobs_path
@@ -42,7 +42,7 @@ class Admin::JobsController < ApplicationController
     @job = Job.find(params[:id])
 
     @job.destroy
-    redirect_to admin_job_path
+    redirect_to admin_jobs_path
   end
 
 
